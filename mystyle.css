@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    background-color: #4b3832;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+.menu a:hover {
+    background-color: #91684a;
+    border-radius: 5px;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.our-blog {
+    text-align: center;
+    color: #4b3832;
+}
+
+.content {
+    display: flex;
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content img {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+.btn-more {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #4b3832;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-more:hover {
+    background-color: #91684a;
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section Styles */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    text-align: center;
+    color: #4b3832;
+}
+
+section div {
+    margin: 20px 0;
+}
+
+section div h3 {
+    color: #4b3832;
+}
+
+section div p span {
+    font-weight: bold;
+}
+
+.btn-moreinf {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #4b3832;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-moreinf:hover {
+    background-color: #91684a;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4b3832;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
